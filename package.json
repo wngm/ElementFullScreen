@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/wngzhe/ElementFullScreen/issues"
   },
-  "homepage": "https://github.com/wngzhe/ElementFullScreen#readme"
+  "homepage": "https://github.com/wngzhe/ElementFullScreen#readme",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "sass-loader": "^6.0.6",
+    "screenfull": "^3.2.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "style-loader": "^0.18.2"
+  }
 }
