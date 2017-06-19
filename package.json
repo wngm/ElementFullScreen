@@ -26,8 +26,11 @@
     "webpack-dev-server": "^2.4.5"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-loader": "^7.0.0",
     "css-loader": "^0.28.4",
     "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
     "style-loader": "^0.18.2"
   }
 }

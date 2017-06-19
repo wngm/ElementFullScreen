@@ -2,7 +2,9 @@ $bg:red;
 
 body{
   background: #000
+
 }
 div{
+  display: flex;
   background: $bg
 }
