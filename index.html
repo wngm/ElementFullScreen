@@ -5,7 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-<div>hello word</div>
+<div class="content">
+    <div id="video-wrap">
+        <video  class="video-class" autoplay id="video">
+            <source src="/src/video/test1.mp4" type="video/mp4">
+            <source src="src/video/test1.ogg" type="video/ogg">
+        </video>
+        <div class="html-wrap">
+            <div class="page1">
+                <div class="page1-title">问：你会选择什么？</div>
+                <div class="page1-radio"><input type="radio" value="1" name="choose">A.你会选择a</div>
+                <div class="page1-radio"><input type="radio" value="2" name="choose">B.你会选择b</div>
+                <div class="page1-radio"><input type="radio" value="3" name="choose">C.你会选择b</div>
+                <div class="page1-radio"><input type="radio" value="4" name="choose">D.a和b一样</div>
+
+
+            <div>
+                <button type="button" id="submit">确定</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <button id="screen">全屏</button>
+</div>
+
 <script src="bundle.js"></script>
 </body>
 </html>
