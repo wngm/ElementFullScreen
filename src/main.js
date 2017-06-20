@@ -43,7 +43,7 @@ var status={code:0};//播放状态对象
         if(time>=12&&time<=13){
             if(status.code==0){
                 document.getElementsByClassName('html-wrap')[0].style.display='block';
-                status.code==1;
+                status.code=1;
                 video.pause()
             }
         }
